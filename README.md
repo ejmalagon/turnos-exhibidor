@@ -30,8 +30,8 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
         // Lista de turnos disponibles
         const turnos = [
             { hora: '07:00 - 09:00', punto: 'Punto 1' },
-            { hora: '09:00 - 11:00', punto: 'Punto Tibabuyes'' },
-            { hora: '11:00 - 13:00 p.m.', punto: 'Punto Tibabuyes'' },
+            { hora: '09:00 - 11:00', punto: 'Punto Tibabuyes' },
+            { hora: '11:00 - 13:00 p.m.', punto: 'Punto 1' },
             { hora: '07:00 - 09:00', punto: 'Punto 2' },
             { hora: '09:00 - 11:00', punto: 'Punto 2' },
             { hora: '11:00 - 13:00', punto: 'Punto 2' },

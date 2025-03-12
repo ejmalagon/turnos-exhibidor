@@ -1,5 +1,5 @@
 # Turnos campaña exhibidor 22 de marzo 
-Esta encuesta se ha diseñado para saber en qué horarios está disponible para el exhibidor, debe escribir su nombre y el de los compañeros que estarán en ese turno. 
+Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, debes escribir tu nombre y el de los compañeros que estarán en ese turno. 
 
 <html lang="es">
 <head>

@@ -109,7 +109,7 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
 </head>
 <body>
     <h2>Selecciona tu Turno</h2>
-    <input type="text" id="nombre" placeholder="Tu Nombre" required>
+    <input type="text" id="nombre" placeholder="Nombres de los publicadores que estarán en el exhibidor." required>
     <div id="turnos"></div>
 </body>
 </html>

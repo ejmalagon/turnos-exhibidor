@@ -24,6 +24,7 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
        const firebaseConfig = {
   apiKey: "AIzaSyBnm4eifYOOoZ_H03Q0IOCmCs2E1ARPKQ0",
   authDomain: "exhibidores-37a1e.firebaseapp.com",
+  databaseURL: "https://exhibidores-37a1e-default-rtdb.firebaseio.com/",
   projectId: "exhibidores-37a1e",
   storageBucket: "exhibidores-37a1e.firebasestorage.app",
   messagingSenderId: "832454027212",

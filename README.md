@@ -1,6 +1,6 @@
 # Turnos campaña exhibidor 22 de marzo 
 Esta encuesta se ha diseñado para saber en qué horarios está disponible para el exhibidor, puede diligenciar la encuesta de manera individual para que se le asigne una pareja, o si lo desea puede diligenciar la encuesta con otro publicador. 
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -29,9 +29,9 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
 
         // Lista de turnos disponibles
         const turnos = [
-            { hora: '07:00 - 09:00', punto: 'Punto Tibabuyes' },
+            { hora: '07:00 - 09:00', punto: 'Punto 1' },
             { hora: '09:00 - 11:00', punto: 'Punto Tibabuyes'' },
-            { hora: '11:00 - 1:00 p.m.', punto: 'Punto Tibabuyes'' },
+            { hora: '11:00 - 13:00 p.m.', punto: 'Punto Tibabuyes'' },
             { hora: '07:00 - 09:00', punto: 'Punto 2' },
             { hora: '09:00 - 11:00', punto: 'Punto 2' },
             { hora: '11:00 - 13:00', punto: 'Punto 2' },

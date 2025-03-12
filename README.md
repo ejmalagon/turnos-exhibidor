@@ -37,7 +37,10 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
             { hora: '5:00 - 7:00 p.m.', punto: 'Punto Tibabuyes' },
             { hora: '07:00 - 09:00', punto: 'Punto Afidro' },
             { hora: '09:00 - 11:00', punto: 'Punto Afidro' },
-            { hora: '11:00 - 13:00', punto: 'Punto Afidro' },
+            { hora: '11:00 - 1:00 p.m.', punto: 'Punto Afidro' },
+            { hora: '1:00 - 3:00 p.m.', punto: 'Punto Afidro' },
+            { hora: '3:00 - 5:00 p.m.', punto: 'Punto Afidro' },
+            { hora: '5:00 - 7:00 p.m.', punto: 'Punto Afidro' },
             { hora: '07:00 - 09:00', punto: 'Punto Yaiti' },
             { hora: '09:00 - 11:00', punto: 'Punto Yaiti' },
             { hora: '11:00 - 13:00', punto: 'Punto Yaiti' }

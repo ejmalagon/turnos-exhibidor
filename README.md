@@ -49,8 +49,7 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
             { hora: '5:00 - 7:00 p.m.', punto: 'Punto Yaiti' }
         ];
 
-        // Cargar los turnos y mostrar los ocupados
-        function cargarTurnos() {
+       function cargarTurnos() {
             const turnosContainer = document.getElementById("turnos");
             turnosContainer.innerHTML = "";
 
@@ -111,11 +110,5 @@ Esta encuesta se ha diseñado para saber en qué horarios está disponible para 
     <h2>Selecciona tu Turno</h2>
     <input type="text" id="nombre" placeholder="Tu Nombre" required>
     <div id="turnos"></div>
-</body>
-</html>
-        }
-
-        database.ref("turnosOcupados").on("value", cargarTurnos);
-    </script>
 </body>
 </html>

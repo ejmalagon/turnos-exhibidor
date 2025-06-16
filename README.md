@@ -1,5 +1,5 @@
-# Turnos campaña exhibidor 17 de mayo
-Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, debes escribir tu nombre y el de los compañeros que estarán en ese turno. 
+# Turnos campaña exhibidor 21 de junio
+Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno. 
 
 <html lang="es">
 <head>

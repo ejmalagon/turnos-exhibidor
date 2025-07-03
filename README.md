@@ -1,4 +1,4 @@
-<Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.>
+Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -96,20 +96,20 @@
     const database = getDatabase(app);
 
     const turnos = [
-      { hora: '07:00 - 09:00', punto: 'Punto Tibabuyes' },
-      { hora: '09:00 - 11:00', punto: 'Punto Tibabuyes' },
+      { hora: '7:00 - 9:00', punto: 'Punto Tibabuyes' },
+      { hora: '9:00 - 11:00', punto: 'Punto Tibabuyes' },
       { hora: '11:00 - 1:00 p.m.', punto: 'Punto Tibabuyes' },
       { hora: '1:00 - 3:00 p.m.', punto: 'Punto Tibabuyes' },
       { hora: '3:00 - 5:00 p.m.', punto: 'Punto Tibabuyes' },
       { hora: '5:00 - 7:00 p.m.', punto: 'Punto Tibabuyes' },
-      { hora: '07:00 - 09:00', punto: 'Punto Afidro' },
-      { hora: '09:00 - 11:00', punto: 'Punto Afidro' },
+      { hora: '7:00 - 9:00', punto: 'Punto Afidro' },
+      { hora: '9:00 - 11:00', punto: 'Punto Afidro' },
       { hora: '11:00 - 1:00 p.m.', punto: 'Punto Afidro' },
       { hora: '1:00 - 3:00 p.m.', punto: 'Punto Afidro' },
       { hora: '3:00 - 5:00 p.m.', punto: 'Punto Afidro' },
       { hora: '5:00 - 7:00 p.m.', punto: 'Punto Afidro' },
-      { hora: '07:00 - 09:00', punto: 'Punto Yaiti' },
-      { hora: '09:00 - 11:00', punto: 'Punto Yaiti' },
+      { hora: '7:00 - 9:00', punto: 'Punto Yaiti' },
+      { hora: '9:00 - 11:00', punto: 'Punto Yaiti' },
       { hora: '11:00 - 1:00 p.m.', punto: 'Punto Yaiti' },
       { hora: '1:00 - 3:00 p.m.', punto: 'Punto Yaiti' },
       { hora: '3:00 - 5:00 p.m.', punto: 'Punto Yaiti' },

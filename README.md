@@ -62,7 +62,9 @@
 </head>
 <body>
   <h1>Campaña de exhibidores del 12 de julio</h1>
-  <p>Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, Selecciona tu turno y escribe los nombres de las personas que estarán en ese turno.</p>
+  <p>Esta encuesta tiene como propósito registrar la disponibilidad para cubrir los turnos del exhibidor.</p>
+<p>Selecciona el turno en el que estarás presente y escribe los nombres completos de al menos dos personas que estarán en ese mismo turno (incluyéndote si aplicas).</p>
+<p>⚠️ Recuerda que los turnos con un solo nombre serán eliminados.</p>
   <div id="turnos"></div>
 
   <!-- Modal -->
@@ -96,24 +98,24 @@
     const database = getDatabase(app);
 
     const turnos = [
-      { hora: '7:00 - 9:00', punto: 'Punto Tibabuyes' },
-      { hora: '9:00 - 11:00', punto: 'Punto Tibabuyes' },
-      { hora: '11:00 - 1:00 p.m.', punto: 'Punto Tibabuyes' },
-      { hora: '1:00 - 3:00 p.m.', punto: 'Punto Tibabuyes' },
-      { hora: '3:00 - 5:00 p.m.', punto: 'Punto Tibabuyes' },
-      { hora: '5:00 - 7:00 p.m.', punto: 'Punto Tibabuyes' },
-      { hora: '7:00 - 9:00', punto: 'Punto Afidro' },
-      { hora: '9:00 - 11:00', punto: 'Punto Afidro' },
-      { hora: '11:00 - 1:00 p.m.', punto: 'Punto Afidro' },
-      { hora: '1:00 - 3:00 p.m.', punto: 'Punto Afidro' },
-      { hora: '3:00 - 5:00 p.m.', punto: 'Punto Afidro' },
-      { hora: '5:00 - 7:00 p.m.', punto: 'Punto Afidro' },
-      { hora: '7:00 - 9:00', punto: 'Punto Yaiti' },
-      { hora: '9:00 - 11:00', punto: 'Punto Yaiti' },
-      { hora: '11:00 - 1:00 p.m.', punto: 'Punto Yaiti' },
-      { hora: '1:00 - 3:00 p.m.', punto: 'Punto Yaiti' },
-      { hora: '3:00 - 5:00 p.m.', punto: 'Punto Yaiti' },
-      { hora: '5:00 - 7:00 p.m.', punto: 'Punto Yaiti' },
+      { hora: '7:00 - 9:00', punto: 'Tibabuyes' },
+      { hora: '9:00 - 11:00', punto: 'Tibabuyes' },
+      { hora: '11:00 - 1:00 p.m.', punto: 'Tibabuyes' },
+      { hora: '1:00 - 3:00 p.m.', punto: 'Tibabuyes' },
+      { hora: '3:00 - 5:00 p.m.', punto: 'Tibabuyes' },
+      { hora: '5:00 - 7:00 p.m.', punto: 'Tibabuyes' },
+      { hora: '7:00 - 9:00', punto: 'Afidro' },
+      { hora: '9:00 - 11:00', punto: 'Afidro' },
+      { hora: '11:00 - 1:00 p.m.', punto: 'Afidro' },
+      { hora: '1:00 - 3:00 p.m.', punto: 'Afidro' },
+      { hora: '3:00 - 5:00 p.m.', punto: 'Afidro' },
+      { hora: '5:00 - 7:00 p.m.', punto: 'Afidro' },
+      { hora: '7:00 - 9:00', punto: 'Yaiti' },
+      { hora: '9:00 - 11:00', punto: 'Yaiti' },
+      { hora: '11:00 - 1:00 p.m.', punto: 'Yaiti' },
+      { hora: '1:00 - 3:00 p.m.', punto: 'Yaiti' },
+      { hora: '3:00 - 5:00 p.m.', punto: 'Yaiti' },
+      { hora: '5:00 - 7:00 p.m.', punto: 'Yaiti' },
     ];
 
     let turnoActualSeleccionado = null;

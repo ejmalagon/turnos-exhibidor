@@ -161,7 +161,7 @@
     document.getElementById("confirmarBtn").onclick = () => {
       const nombres = document.getElementById("nombreInput").value.trim();
       if (!nombres) {
-        alert("Debes escribir al menos un nombre.");
+        alert("Debes escribir los nombres de las dos o tres personas que estarán en el turno.");
         return;
       }
 

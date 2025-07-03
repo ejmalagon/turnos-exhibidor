@@ -62,6 +62,7 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
   </style>
 </head>
 <body>
+  <h1>Campaña de exhibidores del 12 de julio.</h1>
   <h2>Selecciona tu turno y escribe los nombres de las personas que estarán en ese turno.</h2>
   <div id="turnos"></div>
 

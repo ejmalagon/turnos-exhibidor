@@ -1,9 +1,8 @@
-Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Turnos campaña exhibidor 12 de julio</title>
+  <title>Turnos campaña exhibidor</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -62,8 +61,8 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
   </style>
 </head>
 <body>
-  <h1>Campaña de exhibidores del 12 de julio.</h1>
-  <h2>Selecciona tu turno y escribe los nombres de las personas que estarán en ese turno.</h2>
+  <h1>Campaña de exhibidores del 12 de julio</h1>
+  <p>Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, Selecciona tu turno y escribe los nombres de las personas que estarán en ese turno.</p>
   <div id="turnos"></div>
 
   <!-- Modal -->

@@ -1,9 +1,8 @@
-Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.
-
+<Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Selecciona tu Turno</title>
   <style>
     body {
@@ -26,7 +25,7 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
       cursor: not-allowed;
     }
 
-    /* Estilo modal */
+    /* Modal */
     .modal {
       display: none;
       position: fixed;
@@ -36,7 +35,7 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
       width: 100%;
       height: 100%;
       overflow: auto;
-      background-color: rgba(0,0,0,0.5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
     .modal-content {
@@ -74,7 +73,7 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
       <input type="text" id="nombreInput" placeholder="Escribe los nombres aquí">
       <br>
       <button id="confirmarBtn">Confirmar</button>
-      <button onclick="cerrarModal()">Cancelar</button>
+      <button id="cancelarBtn">Cancelar</button>
     </div>
   </div>
 
@@ -154,8 +153,11 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
 
     function cerrarModal() {
       document.getElementById("turnoModal").style.display = "none";
+      document.getElementById("nombreInput").value = "";
+      turnoActualSeleccionado = null;
     }
 
+    // Confirmar selección
     document.getElementById("confirmarBtn").onclick = () => {
       const nombres = document.getElementById("nombreInput").value.trim();
       if (!nombres) {
@@ -175,6 +177,11 @@ Esta encuesta se ha diseñado para saber en qué horarios estás disponible para
           alert("Este turno ya ha sido ocupado.");
         }
       });
+    };
+
+    // Cancelar selección
+    document.getElementById("cancelarBtn").onclick = () => {
+      cerrarModal();
     };
 
     onValue(ref(database, "turnosOcupados"), cargarTurnos);

@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+Esta encuesta se ha diseñado para saber en qué horarios estás disponible para el exhibidor, DEBES ESCRIBIR TU NOMBRE Y EL DE TUS COMPAÑEROS que estarán en ese turno.
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">

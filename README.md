@@ -62,7 +62,6 @@
 </head>
 <body>
   <h1>Campaña de exhibidores del 12 de julio</h1>
-  <p>Esta encuesta tiene como propósito registrar la disponibilidad para cubrir los turnos del exhibidor.</p>
 <p>Selecciona el turno en el que estarás presente y escribe los nombres completos de al menos dos personas que estarán en ese mismo turno (incluyéndote si aplicas).</p>
 <p>⚠️ Recuerda que los turnos con un solo nombre serán eliminados.</p>
   <div id="turnos"></div>

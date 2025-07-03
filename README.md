@@ -62,7 +62,7 @@
 </head>
 <body>
   <h1>Campaña de exhibidores del 12 de julio</h1>
-<p>Elige el horario que te funcione y escribe los nombres de al menos dos personas que estarán presentes en ese turno (puedes incluirte).</p>
+<p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
 <p>⚠️ Importante: los turnos que tengan solo un nombre serán eliminados.</p>
   <div id="turnos"></div>
 

@@ -61,7 +61,7 @@
   </style>
 </head>
 <body>
-  <h1>Campaña de exhibidores del jueves 20 de septiembre</h1>
+  <h1>Campaña de exhibidores del sábado 20 de septiembre</h1>
 <p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
 <p>⚠️ Importante: los turnos que tengan solo un nombre serán eliminados.</p>
   <div id="turnos"></div>

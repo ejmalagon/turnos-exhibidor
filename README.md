@@ -76,50 +76,6 @@
   </thead>
   <tbody></tbody>
 </table>
-function cargarTurnos() {
-  const turnosContainer = document.getElementById("turnos");
-  const tablaBody = document.querySelector("#tablaTurnos tbody");
-
-  turnosContainer.innerHTML = "";
-  tablaBody.innerHTML = "";
-
-  const turnosRef = ref(database, "turnosOcupados");
-
-  get(turnosRef).then(snapshot => {
-    const turnosOcupados = snapshot.val() || {};
-
-    turnos.forEach((turno, index) => {
-      // -------- Bloques visuales (como ya los tenías) --------
-      const div = document.createElement("div");
-      div.className = "turno";
-      div.innerText = `${turno.hora} - ${turno.punto}`;
-
-      if (turnosOcupados[index]) {
-        div.classList.add("ocupado");
-        div.innerText += `\nOcupado por: ${turnosOcupados[index]}`;
-      } else {
-        div.onclick = () => abrirModal(index);
-      }
-
-      turnosContainer.appendChild(div);
-
-      // -------- Tabla --------
-      const fila = document.createElement("tr");
-      const celdaHora = document.createElement("td");
-      const celdaPunto = document.createElement("td");
-      const celdaPersonas = document.createElement("td");
-
-      celdaHora.textContent = turno.hora;
-      celdaPunto.textContent = turno.punto;
-      celdaPersonas.textContent = turnosOcupados[index] || "Disponible";
-
-      fila.appendChild(celdaHora);
-      fila.appendChild(celdaPunto);
-      fila.appendChild(celdaPersonas);
-      tablaBody.appendChild(fila);
-    });
-  });
-}
 
   <!-- Modal -->
   <div id="turnoModal" class="modal">

@@ -58,6 +58,14 @@
       padding: 8px 16px;
       margin-right: 10px;
     }
+    #tablaTurnos th, #tablaTurnos td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+#tablaTurnos th {
+  background-color: #f2f2f2;
+}
   </style>
 </head>
 <body>
@@ -177,7 +185,13 @@
 
       celdaHora.textContent = turno.hora;
       celdaPunto.textContent = turno.punto;
-      celdaPersonas.textContent = turnosOcupados[index] || "Disponible";
+ if (turnosOcupados[index]) {
+        celdaPersonas.textContent = turnosOcupados[index];
+        celdaPersonas.style.color = "red";  
+      } else {
+        celdaPersonas.textContent = "Disponible";
+        celdaPersonas.style.color = "green";
+      }
 
       fila.appendChild(celdaHora);
       fila.appendChild(celdaPunto);

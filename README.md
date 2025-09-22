@@ -65,6 +65,61 @@
 <p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
 <p>⚠️ Importante: los turnos que tengan solo un nombre serán eliminados.</p>
   <div id="turnos"></div>
+<h2>Tabla de turnos ocupados</h2>
+<table id="tablaTurnos" border="1" style="margin:auto; border-collapse: collapse; width: 90%;">
+  <thead>
+    <tr>
+      <th>Hora</th>
+      <th>Punto</th>
+      <th>Personas asignadas</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+function cargarTurnos() {
+  const turnosContainer = document.getElementById("turnos");
+  const tablaBody = document.querySelector("#tablaTurnos tbody");
+
+  turnosContainer.innerHTML = "";
+  tablaBody.innerHTML = "";
+
+  const turnosRef = ref(database, "turnosOcupados");
+
+  get(turnosRef).then(snapshot => {
+    const turnosOcupados = snapshot.val() || {};
+
+    turnos.forEach((turno, index) => {
+      // -------- Bloques visuales (como ya los tenías) --------
+      const div = document.createElement("div");
+      div.className = "turno";
+      div.innerText = `${turno.hora} - ${turno.punto}`;
+
+      if (turnosOcupados[index]) {
+        div.classList.add("ocupado");
+        div.innerText += `\nOcupado por: ${turnosOcupados[index]}`;
+      } else {
+        div.onclick = () => abrirModal(index);
+      }
+
+      turnosContainer.appendChild(div);
+
+      // -------- Tabla --------
+      const fila = document.createElement("tr");
+      const celdaHora = document.createElement("td");
+      const celdaPunto = document.createElement("td");
+      const celdaPersonas = document.createElement("td");
+
+      celdaHora.textContent = turno.hora;
+      celdaPunto.textContent = turno.punto;
+      celdaPersonas.textContent = turnosOcupados[index] || "Disponible";
+
+      fila.appendChild(celdaHora);
+      fila.appendChild(celdaPunto);
+      fila.appendChild(celdaPersonas);
+      tablaBody.appendChild(fila);
+    });
+  });
+}
 
   <!-- Modal -->
   <div id="turnoModal" class="modal">

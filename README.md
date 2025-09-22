@@ -143,30 +143,50 @@
     let turnoActualSeleccionado = null;
 
     function cargarTurnos() {
-      const turnosContainer = document.getElementById("turnos");
-      turnosContainer.innerHTML = "";
+  const turnosContainer = document.getElementById("turnos");
+  const tablaBody = document.querySelector("#tablaTurnos tbody");
 
-      const turnosRef = ref(database, "turnosOcupados");
+  turnosContainer.innerHTML = "";
+  tablaBody.innerHTML = "";
 
-      get(turnosRef).then(snapshot => {
-        const turnosOcupados = snapshot.val() || {};
+  const turnosRef = ref(database, "turnosOcupados");
 
-        turnos.forEach((turno, index) => {
-          const div = document.createElement("div");
-          div.className = "turno";
-          div.innerText = `${turno.hora} - ${turno.punto}`;
+  get(turnosRef).then(snapshot => {
+    const turnosOcupados = snapshot.val() || {};
 
-          if (turnosOcupados[index]) {
-            div.classList.add("ocupado");
-            div.innerText += `\nOcupado por: ${turnosOcupados[index]}`;
-          } else {
-            div.onclick = () => abrirModal(index);
-          }
+    turnos.forEach((turno, index) => {
+      // -------- Bloques visuales --------
+      const div = document.createElement("div");
+      div.className = "turno";
+      div.innerText = `${turno.hora} - ${turno.punto}`;
 
-          turnosContainer.appendChild(div);
-        });
-      });
-    }
+      if (turnosOcupados[index]) {
+        div.classList.add("ocupado");
+        div.innerText += `\nOcupado por: ${turnosOcupados[index]}`;
+      } else {
+        div.onclick = () => abrirModal(index);
+      }
+
+      turnosContainer.appendChild(div);
+
+      // -------- Tabla --------
+      const fila = document.createElement("tr");
+      const celdaHora = document.createElement("td");
+      const celdaPunto = document.createElement("td");
+      const celdaPersonas = document.createElement("td");
+
+      celdaHora.textContent = turno.hora;
+      celdaPunto.textContent = turno.punto;
+      celdaPersonas.textContent = turnosOcupados[index] || "Disponible";
+
+      fila.appendChild(celdaHora);
+      fila.appendChild(celdaPunto);
+      fila.appendChild(celdaPersonas);
+      tablaBody.appendChild(fila);
+    });
+  });
+}
+
 
     function abrirModal(index) {
       turnoActualSeleccionado = index;

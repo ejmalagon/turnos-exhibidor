@@ -69,9 +69,7 @@
   </style>
 </head>
 <body>
-  <h1>Campaña de exhibidores del lunes 13 de octubre</h1>
-<p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
-<p>⚠️ Importante: los turnos que tengan solo un nombre serán eliminados.</p>
+
   <div id="turnos"></div>
 <h2>Tabla de turnos ocupados</h2>
 <table id="tablaTurnos" border="1" style="margin:auto; border-collapse: collapse; width: 90%;">

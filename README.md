@@ -218,7 +218,7 @@
           fila.innerHTML = `
             <td>${turno.hora}</td>
             <td>${turno.punto}</td>
-            <td style="color:${ocupados[index] ? 'red' : 'green'}">
+            <td style="color:${ocupados[index] ? 'green' : 'red'}; font-weight: ${ocupados[index] ? 'bold' : 'normal'}">
               ${ocupados[index] || 'Disponible'}
             </td>
           `;

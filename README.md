@@ -40,18 +40,20 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
 
-    /* Turno seleccionado */
-    .turno.seleccionado {
-      background-color: #d4f8d4;
-      border-color: #2e7d32;
-    }
+/* Turno seleccionado (aún no confirmado) */
+.turno.seleccionado {
+  background-color: #e0e0e0;
+  border-color: #777;
+}
 
-    /* Turno ocupado */
-    .turno.ocupado {
-      background-color: #e0e0e0;
-      border-color: #999;
-      cursor: not-allowed;
-      opacity: 0.8;
+/* Turno ocupado (confirmado) */
+.turno.ocupado {
+  background-color: #d4f8d4;
+  border-color: #2e7d32;
+  cursor: not-allowed;
+
+
+    
     }
 
     /* Modal */

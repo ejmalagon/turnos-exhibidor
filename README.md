@@ -189,6 +189,27 @@
     { hora: '13:00 - 15:00', punto: 'Afidro' },
     { hora: '15:00 - 17:00', punto: 'Afidro' },
     { hora: '17:00 - 19:00', punto: 'Afidro' }
+
+    { hora: '07:00 - 09:00', punto: 'Yaiti' }, 
+  { hora: '09:00 - 11:00', punto: 'Yaiti' }, 
+  { hora: '11:00 - 01:00 p.m.', punto: 'Yaiti' }, 
+  { hora: '01:00 - 03:00 p.m.', punto: 'Yaiti' }, 
+  { hora: '03:00 - 05:00 p.m.', punto: 'Yaiti' }, 
+  { hora: '05:00 - 07:00 p.m.', punto: 'Yaiti' }, 
+  
+  { hora: '07:00 - 09:00', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '09:00 - 11:00', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '05:00 - 07:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  
+  { hora: '07:00 - 09:00', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '09:00 - 11:00', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '05:00 - 07:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
   ];
 
   let turnoSeleccionado = null;

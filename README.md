@@ -167,15 +167,15 @@
     const database = getDatabase(app);
 
     const turnos = [
-      { hora: '07:00 - 09:00', punto: 'Tibabuyes' },
-      { hora: '09:00 - 11:00', punto: 'Tibabuyes' },
+      { hora: '07:00 - 09:00 a.m.', punto: 'Tibabuyes' },
+      { hora: '09:00 - 11:00 a.m.', punto: 'Tibabuyes' },
       { hora: '11:00 - 01:00 p.m.', punto: 'Tibabuyes' },
       { hora: '01:00 - 03:00 p.m.', punto: 'Tibabuyes' },
       { hora: '03:00 - 05:00 p.m.', punto: 'Tibabuyes' },
       { hora: '05:00 - 07:00 p.m.', punto: 'Tibabuyes' },
 
-      { hora: '07:00 - 09:00', punto: 'Afidro' },
-      { hora: '09:00 - 11:00', punto: 'Afidro' },
+      { hora: '07:00 - 09:00 a.m.', punto: 'Afidro' },
+      { hora: '09:00 - 11:00 a.m.', punto: 'Afidro' },
       { hora: '11:00 - 01:00 p.m.', punto: 'Afidro' },
       { hora: '01:00 - 03:00 p.m.', punto: 'Afidro' },
       { hora: '03:00 - 05:00 p.m.', punto: 'Afidro' },

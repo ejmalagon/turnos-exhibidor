@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Asignación de turnos – Campaña exhibidor</title>
 
   <style>
     body {
@@ -176,36 +174,36 @@
   const db = getDatabase(app);
 
   const turnos = [
-    { hora: '07:00 - 09:00', punto: 'Tibabuyes' },
-    { hora: '09:00 - 11:00', punto: 'Tibabuyes' },
-    { hora: '11:00 - 13:00', punto: 'Tibabuyes' },
-    { hora: '13:00 - 15:00', punto: 'Tibabuyes' },
-    { hora: '15:00 - 17:00', punto: 'Tibabuyes' },
-    { hora: '17:00 - 19:00', punto: 'Tibabuyes' },
+    { hora: '07:00 - 09:00 a.m.', punto: 'Tibabuyes' },
+    { hora: '09:00 - 11:00 a.m.', punto: 'Tibabuyes' },
+    { hora: '11:00 - 1:00 p.m.', punto: 'Tibabuyes' },
+    { hora: '1:00 - 3:00 p.m.', punto: 'Tibabuyes' },
+    { hora: '3:00 - 5:00 p.m.', punto: 'Tibabuyes' },
+    { hora: '5:00 - 7:00 p.m.', punto: 'Tibabuyes' },
 
-    { hora: '07:00 - 09:00', punto: 'Afidro' },
-    { hora: '09:00 - 11:00', punto: 'Afidro' },
-    { hora: '11:00 - 13:00', punto: 'Afidro' },
-    { hora: '13:00 - 15:00', punto: 'Afidro' },
-    { hora: '15:00 - 17:00', punto: 'Afidro' },
-    { hora: '17:00 - 19:00', punto: 'Afidro' },
+    { hora: '07:00 - 09:00 a.m.', punto: 'Afidro' },
+    { hora: '09:00 - 11:00 a.m,', punto: 'Afidro' },
+    { hora: '11:00 - 1:00 p.m.', punto: 'Afidro' },
+    { hora: '1:00 - 3:00 p.m.', punto: 'Afidro' },
+    { hora: '3:00 - 5:00 p.m.', punto: 'Afidro' },
+    { hora: '5:00 - 7:00 p.m.', punto: 'Afidro' },
 
-    { hora: '07:00 - 09:00', punto: 'Yaiti' }, 
-  { hora: '09:00 - 11:00', punto: 'Yaiti' }, 
+    { hora: '07:00 - 09:00 a.m.', punto: 'Yaiti' }, 
+  { hora: '09:00 - 11:00 a.m.', punto: 'Yaiti' }, 
   { hora: '11:00 - 01:00 p.m.', punto: 'Yaiti' }, 
   { hora: '01:00 - 03:00 p.m.', punto: 'Yaiti' }, 
   { hora: '03:00 - 05:00 p.m.', punto: 'Yaiti' }, 
   { hora: '05:00 - 07:00 p.m.', punto: 'Yaiti' }, 
   
-  { hora: '07:00 - 09:00', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
-  { hora: '09:00 - 11:00', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '07:00 - 09:00 a.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
+  { hora: '09:00 - 11:00 a.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
   { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
   { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
   { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
   { hora: '05:00 - 07:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' }, 
   
-  { hora: '07:00 - 09:00', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
-  { hora: '09:00 - 11:00', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '07:00 - 09:00 a.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
+  { hora: '09:00 - 11:00 a.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
   { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
   { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 
   { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' }, 

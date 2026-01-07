@@ -188,7 +188,7 @@
     { hora: '11:00 - 13:00', punto: 'Afidro' },
     { hora: '13:00 - 15:00', punto: 'Afidro' },
     { hora: '15:00 - 17:00', punto: 'Afidro' },
-    { hora: '17:00 - 19:00', punto: 'Afidro' }
+    { hora: '17:00 - 19:00', punto: 'Afidro' },
 
     { hora: '07:00 - 09:00', punto: 'Yaiti' }, 
   { hora: '09:00 - 11:00', punto: 'Yaiti' }, 

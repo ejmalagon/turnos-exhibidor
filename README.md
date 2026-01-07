@@ -215,7 +215,26 @@
       get(refTurnos).then(snapshot => {
         const ocupados = snapshot.val() || {};
 
-        turnos.forEach((turno, index) => {
+        const grupos = {};
+
+turnos.forEach((turno, index) => {
+  if (!grupos[turno.punto]) grupos[turno.punto] = [];
+  grupos[turno.punto].push({ ...turno, index });
+});
+
+Object.keys(grupos).forEach(punto => {
+
+  const titulo = document.createElement("h3");
+  titulo.innerText = punto;
+  titulo.style.width = "100%";
+  titulo.style.marginTop = "30px";
+  contenedor.appendChild(titulo);
+
+  grupos[punto].forEach(({ hora, index }) => {
+    const div = document.createElement("div");
+    div.className = "turno";
+    div.innerText = `${hora}`;
+
           const div = document.createElement("div");
           div.className = "turno";
           div.innerText = `${turno.hora}\n${turno.punto}`;

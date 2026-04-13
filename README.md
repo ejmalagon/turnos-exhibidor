@@ -5,7 +5,7 @@
   <title>Campaña de exhibidores del sábado 18 de abril</title>
 <p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
 <p><strong>Importante:</strong> Los turnos que tengan solo un nombre serán eliminados.</p>
-<p>Por favor, lea: <a href="https://wol.jw.org/es/wol/d/r4/lp-s/202015126?q=exhibidor&p=doc">Cómo predicar con los exhibidores de publicaciones</a></p>
+<p>Por favor leer: <a href="https://wol.jw.org/es/wol/d/r4/lp-s/202015126?q=exhibidor&p=doc">Cómo predicar con los exhibidores de publicaciones</a></p>
 
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }

@@ -2,10 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Campaña de exhibidores del sábado 18 de abril</title>
-<p>Elige el horario que te funcione y escribe los nombres de dos o tres personas que estarán presentes en ese turno (puedes incluirte).</p>
-<p><strong>Importante:</strong> Los turnos que tengan solo un nombre serán eliminados.</p>
-<p>Por favor leer: <a href="https://wol.jw.org/es/wol/d/r4/lp-s/202015126?q=exhibidor&p=doc">Cómo predicar con los exhibidores de publicaciones</a></p>
+ 
 
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -283,8 +280,10 @@
 <body>
 
   <div class="contenedor">
-    <h1>Turnos del Día</h1>
-    <p class="subtitulo">Selecciona el punto y el horario de tu preferencia</p>
+    <h1>Campaña de exhibidores del sábado 18 de abril</h1>
+    <p class="subtitulo">Selecciona el punto y el horario de tu preferencia. Escribe los nombres de dos o tres personas que estarán presentes en ese turno</p>
+    <p><strong>Importante:</strong> Los turnos que tengan solo un nombre serán eliminados.</p>
+<p>Por favor leer: <a href="https://wol.jw.org/es/wol/d/r4/lp-s/202015126?q=exhibidor&p=doc">Cómo predicar con los exhibidores de publicaciones</a></p>
   </div>
 
   <div class="leyenda" style="max-width:600px;margin:0 auto 16px;">

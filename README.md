@@ -280,10 +280,8 @@
 <body>
 
   <div class="contenedor">
-    <h1>Campaña de exhibidores del lunes 18 de mayo</h1>
+    <h1>Campaña de exhibidores</h1>
     <p class="subtitulo">Selecciona el punto y el horario de tu preferencia. Escribe los nombres de dos o tres personas que estarán presentes en ese turno</p>
-    <p><strong>Importante:</strong> Los turnos que tengan solo un nombre serán eliminados.</p>
-<p>Por favor leer: <a href="https://wol.jw.org/es/wol/d/r4/lp-s/202015126?q=exhibidor&p=doc">Cómo predicar con los exhibidores de publicaciones</a></p>
   </div>
 
   <div class="leyenda" style="max-width:600px;margin:0 auto 16px;">

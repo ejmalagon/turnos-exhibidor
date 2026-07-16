@@ -280,7 +280,7 @@
 <body>
 
   <div class="contenedor">
-    <h1>Campaña de exhibidores</h1>
+    <h1>Campaña de exhibidores lunes 20 de julio</h1>
     <p class="subtitulo">Selecciona el punto y el horario de tu preferencia. Escribe los nombres de dos o tres personas que estarán presentes en ese turno</p>
   </div>
 

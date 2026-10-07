@@ -280,7 +280,7 @@
 <body>
 
   <div class="contenedor">
-    <h1>Campaña de exhibidores sábado 19 de septiembre</h1>
+    <h1>Campaña de exhibidores lunes 12 de octubrebre</h1>
     <p class="subtitulo">Selecciona el punto y el horario de tu preferencia. Escribe los nombres de dos o tres personas que estarán presentes en ese turno</p>
   </div>
 
@@ -363,19 +363,13 @@
       { hora: '03:00 - 05:00 p.m.', punto: 'Yaiti' },
       { hora: '05:00 - 07:00 p.m.', punto: 'Yaiti' },
 
-      { hora: '07:00 - 09:00 a.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
-      { hora: '09:00 - 11:00 a.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
-      { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
-      { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
-      { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
-      { hora: '05:00 - 07:00 p.m.', punto: 'Adicional 1 - Cll 144 Cra 136a' },
+      { hora: '07:00 - 09:00 a.m.', punto: 'Maritza' },
+      { hora: '09:00 - 11:00 a.m.', punto: 'Maritza' },
+      { hora: '11:00 - 01:00 p.m.', punto: 'Maritza' },
+      { hora: '01:00 - 03:00 p.m.', punto: 'Maritza' },
+      { hora: '03:00 - 05:00 p.m.', punto: 'Maritza' },
+      { hora: '05:00 - 07:00 p.m.', punto: 'Maritza' },
 
-      { hora: '07:00 - 09:00 a.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
-      { hora: '09:00 - 11:00 a.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
-      { hora: '11:00 - 01:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
-      { hora: '01:00 - 03:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
-      { hora: '03:00 - 05:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
-      { hora: '05:00 - 07:00 p.m.', punto: 'Adicional 2 - Cll 143 Cra 127c' },
     ];
 
     let turnoSeleccionado = null;

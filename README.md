@@ -280,7 +280,7 @@
 <body>
 
   <div class="contenedor">
-    <h1>Campaña de exhibidores lunes 12 de octubre</h1>
+    <h1>Campaña de exhibidores lunes 16 de noviembre</h1>
     <p class="subtitulo">Selecciona el punto y el horario de tu preferencia. Escribe los nombres de dos o tres personas que estarán presentes en ese turno</p>
   </div>
 
@@ -348,13 +348,6 @@
       { hora: '01:00 - 03:00 p.m.', punto: 'Tibabuyes' },
       { hora: '03:00 - 05:00 p.m.', punto: 'Tibabuyes' },
       { hora: '05:00 - 07:00 p.m.', punto: 'Tibabuyes' },
-
-      { hora: '07:00 - 09:00 a.m.', punto: 'Afidro' },
-      { hora: '09:00 - 11:00 a.m.', punto: 'Afidro' },   // ← coma corregida
-      { hora: '11:00 - 01:00 p.m.', punto: 'Afidro' },
-      { hora: '01:00 - 03:00 p.m.', punto: 'Afidro' },
-      { hora: '03:00 - 05:00 p.m.', punto: 'Afidro' },
-      { hora: '05:00 - 07:00 p.m.', punto: 'Afidro' },
 
       { hora: '07:00 - 09:00 a.m.', punto: 'Yaiti' },
       { hora: '09:00 - 11:00 a.m.', punto: 'Yaiti' },
